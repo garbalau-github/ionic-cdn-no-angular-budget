@@ -17,7 +17,8 @@ confirmBtn.addEventListener('click', () => {
     if (enteredReason.trim().length <= 0 || 
         enteredAmount <= 0 || 
         enteredAmount.trim().length <= 0) {
-        console.log('Wrong values!')
+        // Throw alert
+        console.log('Wrong values!');
         return;
     }
 
